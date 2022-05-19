@@ -1,10 +1,9 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class LetterCombinations {
 
-    private static char[][] numberToAlphabet = {
+    private static final char[][] numberToAlphabet = {
             {},
             {},
             {'a', 'b', 'c'},

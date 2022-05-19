@@ -9,7 +9,7 @@ public class _3Sum {
 
         for(int i=0; i<nums.length-2; ++i) {
             int left = i+1, right = nums.length-1;
-            if(i ==0 || (i>0 && nums[i] != nums[i-1])) {
+            if(i == 0 || nums[i] != nums[i - 1]) {
                 while (left < right) {
                     if (nums[i] + nums[left] + nums[right] == 0) {
                         List<Integer> temp = new ArrayList<>();
