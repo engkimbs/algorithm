@@ -1,3 +1,5 @@
+package leetcode;
+
 public class UniqueBinarySearchTrees {
 
     public static int numTrees(int finalNumberOfNodes) {

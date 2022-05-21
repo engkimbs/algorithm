@@ -1,3 +1,5 @@
+package leetcode;
+
 public class LongestPalindromicSubstring {
 
     private static int left_max = 0, right_max = 0;
