@@ -1,11 +1,15 @@
 package hackerrank;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class LarrayArray {
 
     public static String larrysArray(int[] A) {
+        List<Integer> list = Arrays.stream(A).boxed().collect(Collectors.toList());
+        int[] s = list.stream().mapToInt(Integer::intValue).toArray();
         int cnt = 0;
         String result = "";
 
